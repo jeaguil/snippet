@@ -2,28 +2,6 @@
 
 Code snippet manager that allows you to save, search, organize, and reuse small pieces of code. Improves productivity by quickly retrieving commonly used code patterns and integrating them into your workflow.
 
-## Usage
-
-```bash
-# Adds a new snippet
-$ snippet add "Title" --tag tag1 --tag tag2 --language ruby
-
-# Searches for snippets containing the keyword in title, content or tags.
-$ snippet search "keyword"
-
-# Displays a snippet based on its id
-$ snippet show <id>
-
-# Lists snippets matching tags
-$ snippet list --tag ruby --tag database
-
-# Edits an existing snippet
-$ snippet edit <id>
-
-# Deletes a snippet
-$ snippet delete <id>
-```
-
 ## Key features
 
 1. Storage of Code Snippets
